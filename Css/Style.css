@@ -1,0 +1,506 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  }
+/**********************NAV***************************/
+nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+    height: 44px;
+    background-color: white;
+    padding: 3%;
+
+}
+.menu{
+  display: flex;
+  gap: 40px;
+}
+.contacter{
+  display: flex;
+  gap: 10px;
+  font-size: 10px;
+}
+h1{
+  
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  letter-spacing: 10px;
+
+}
+/**********************PREMIERE-IMAGE***************************/
+
+.firstplanimg{
+  position: relative;
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.firstlpan1{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+
+}
+h2{
+  color: white;
+  font-weight: 450;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  font-size: 35px;
+  
+}
+.lien1 a{
+  border: 2px solid white;
+  border-radius: 0px;
+  background-color: white;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 13px;
+}
+/**********************DEUXIEME/TROISIEME-IMAGE***************************/
+
+.secondplan{
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.glass{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.shoes{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.lien a{
+  border: 1px solid white;
+  border-radius: 1px;
+  background-color: rgba(138, 138, 138, 0.39);
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+div.lienimage{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/**********************QUATRIEME-IMAGE***************************/
+
+.thirtd{
+  display: flex;
+  gap: 20px;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+div.lienimage1{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.man{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thirtds{
+  
+  width: 100%;
+  background-image: url("asiat.avif");
+  background-size: cover;
+
+  font-size: 200%;
+}
+
+/**********************CINQUIEME-IMAGE***************************/
+
+.ecriture{
+  width: 100%;
+  margin-top: 200px;
+
+}
+.ecriture p{
+  font-size: 14px;
+  font-weight:590;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  letter-spacing: 2px;
+
+}
+
+
+
+.femme{
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.textedroite{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+}
+.textedroite p{
+  width: 85%;
+  line-height: 25px;
+
+}
+.textedroite a{
+list-style: none;
+color: black;
+font-size: 13px;
+}
+h3{
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  width: 75%;
+  text-align: center;
+}
+
+
+/**********************SERVICE-IMAGE***************************/
+
+.ecriture1{
+  width: 100%;
+  margin-top: 200px;
+
+}
+.ecriture1 p{
+  font-size: 50px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  letter-spacing: 2px;
+
+}
+
+
+
+.sg {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  margin-top: 70px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 50px;
+  text-align: center;
+  gap: 40px;
+
+  }
+  
+  .service1 { grid-area: 1 / 1 / 2 / 2; }
+  .service2 { grid-area: 1 / 2 / 2 / 3; }
+  .service3 { grid-area: 1 / 3 / 2 / 4; }
+  
+
+    div.div4 { grid-area: 2 / 1 / 3 / 2; 
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      line-height: 25px;
+    }
+  .div4 h4{
+    font-size: 16px;
+    font-weight: 550;
+    letter-spacing: 2px;
+    width: 100%;
+  }
+  .div4 a{
+  list-style: none;
+  color: black;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  width: 100%;
+
+  }
+
+
+
+
+  .div5 { grid-area: 2 / 2 / 3 / 3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 25px;
+  }
+    .div5 h4{
+      font-size: 16px;
+      font-weight: 550;
+      letter-spacing: 2px;
+      width: 100%;
+    }
+    .div5 a{
+    list-style: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    width: 100%;
+  
+    }
+
+
+  .div6 { grid-area: 2 / 3 / 3 / 4; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 25px;
+  }
+    .div6 h4{
+      font-size: 16px;
+      font-weight: 550;
+      letter-spacing: 2px;
+      width: 100%;
+    }
+    .div6 a{
+    list-style: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    width: 100%;
+  
+    }
+
+
+    /**********************FOOTER***************************/
+footer h3{
+  display: flex;
+  font-size: 11px;
+  font-weight: 550;
+  letter-spacing: 1px;
+  width: 100%;
+
+}
+footer{
+  background-color: black;
+  display: flex;
+  width: 100%;
+}
+
+footer a{
+  color: white;
+}
+footer h3{
+  color: grey;
+}
+footer p{
+  color: white;
+}
+.input-long {
+  width: 15cm;  /* Largeur du champ de saisie */
+  padding: 10px; /* Espacement interne */
+  font-size: 16px; /* Taille du texte */
+  border: 1px solid #ccc; /* Bordure du champ */
+  border-radius: 4px; /* Arrondir légèrement les coins */
+  box-sizing: border-box; 
+  background-color: black;
+  color: white;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+  border-color: grey;
+}
+.langue {
+  font-family: sans-serif;
+  font-size: 1rem;
+  padding-right: 10px;
+}
+
+select {
+  font-size: 0.9rem;
+  padding: 2px 5px;
+}
+
+
+
+
+
+
+    .gridfooter1 {
+      display: grid;
+      grid-column-gap: 100px;
+      grid-row-gap: 100px;
+      margin-left: 80Px;
+      margin-right: 80px;
+      margin-top: 100Px;
+      margin-bottom: 150px;
+      width: 100%;
+      }
+      .gridfooter2 {
+
+        display: grid;
+        grid-column-gap: 100px;
+        grid-row-gap: 100px;
+        margin-left: 80Px;
+        margin-right: 80px;
+        margin-top: 100Px;
+        margin-bottom: 150px;
+        width: 40%;
+        gap: 100px;
+        line-height: 15px;
+
+       }
+      
+
+      .help1 { grid-area: 1 / 1 / 2 / 2; 
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      font-size: 12px ;
+      letter-spacing: 1px;
+      }
+      .help2 { grid-area: 1 / 2 / 2 / 3;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        font-size: 12px ;
+        letter-spacing: 1px;  
+       }
+
+      .help3 { grid-area: 2 / 1 / 3 / 2;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        font-size: 12px ;
+        letter-spacing: 1px;  
+       }
+
+      .help4 { grid-area: 2 / 2 / 3 / 3;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        font-size: 12px ;
+        letter-spacing: 1px;  
+       }
+       .gridfooter2 {
+        font-size: 11px ;
+      letter-spacing: 1px;
+      gap: 20px;
+       }
+      
+    
+
+
+       .fin{
+        background-color: black;
+        color: white;
+       }
+       .finp{
+        font-size: 12px;
+        color: white;
+        margin-left: 80px;
+       }
+       .gg{
+        width: 100%;
+        font-size: 370px ;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 30px;
+        
+       }
+
+
+
+
+/**********************MEDIAQUERIES***************************/
+
+@media screen and (max-width: 1024px){
+
+.secondplan{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  gap: 10px;
+}
+.thirtd{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.femme{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  gap: 40px;
+}
+
+
+
+
+
+  
+}
+
+
